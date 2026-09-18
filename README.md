@@ -47,11 +47,3 @@ Depuis la racine du projet, exécute le playbook de configuration en ciblant l'I
 Bash
 
 ansible-playbook -i ansible/inventory.ini ansible/playbook.yml
-
-Sécurité & Conformité (RGPD / HDS)
-
-    Principe du moindre privilège : Gestion des accès via des rôles IAM restreints aux stricts besoins du projet.
-
-    Chiffrement : Chiffrement systématique des volumes EBS au repos et des flux en transit via TLS sur CloudFront.
-
-    Cloisonnement : Exposition minimale des ports sur l'instance EC2 (SSH/22, HTTP/80, HTTPS/443) gérée par UFW.
