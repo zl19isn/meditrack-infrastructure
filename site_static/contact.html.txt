@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediTrack Online - Contact</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; }
+        header { background-color: #0066cc; color: white; padding: 2rem; text-align: center; }
+        nav { display: flex; justify-content: center; background: #004d99; padding: 1rem; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        main { padding: 2rem; max-width: 800px; margin: auto; background: white; margin-top: 2rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        footer { text-align: center; padding: 1.5rem; background: #333; color: white; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contactez MediTrack</h1>
+        <p>Support technique et relations partenaires</p>
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <h2>Informations de contact</h2>
+        <p>Pour toute question relative à la maintenance de votre matériel médical ou à notre infrastructure cloud :</p>
+        <ul>
+            <li><strong>Email :</strong> support@meditrack-online.eu</li>
+            <li><strong>Téléphone :</strong> +33 (0)1 23 45 67 89</li>
+            <li><strong>Adresse :</strong> 15 Rue de la République, 69001 Lyon, France</li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2026 MediTrack Solutions - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
